@@ -1,0 +1,45 @@
+.register-button {
+    background-color: white;
+        color: rgb(10, 102, 194);
+        font-weight: bolder;
+        font-size: 14px;
+        border-color: rgb(10, 102, 194);
+        border-width: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 18px;
+        margin-right : 10px;
+        margin-left: 90px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+}
+
+.register-button:hover {
+    background-color:rgb(47, 132, 218) ;
+    color: white;
+}
+
+.scan-button {
+    background-color: white;
+        color: rgb(10, 102, 194);
+        font-weight: bolder;
+        font-size: 14px;
+        border-color: rgb(10, 102, 194);
+        border-width: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 18px;
+        margin-right : 10px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+       
+}
+
+.scan-button:hover {
+    background-color:rgb(47, 132, 218) ;
+    color: white;
+}
