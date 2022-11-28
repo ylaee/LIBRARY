@@ -91,9 +91,10 @@ header h1{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
-
-
+.generator .fa-solid{
+    color: black;
+    size: 3mm;
+}
 
 
 
