@@ -7,7 +7,7 @@ button.addEventListener("click", () => {
     let textbox = userinput.value;
     if(!textbox) return;
     button.innerText = "Processing info..."
-    img.src = 'https://api.qrserver.com/v1/create-qr-code/?size=130x130&data=/qrValue';
+    img.src = 'https://api.qrserver.com/v1/create-qr-code/?size=130x130&data=hahahaha_ako_pa_ba';
     img.addEventListener("load", () => {
         generator.classList.add("active");
         button.innerText = "Submit"
