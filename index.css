@@ -13,13 +13,14 @@ p{
 .register-button, .scan-button{ 
     text-align: center;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 18px;
     background-color: white;
     color: rgb(10, 102, 194);
     border-color: rgb(10, 102, 194);
     border-width: 1px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding-top: 10px ;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -74,6 +75,9 @@ body {
 
 .aboutus {
     text-align: left;
+    margin-top: 65px;
+    margin-left: 50px;
+    font-size: 20px;
 }
 
 .pculogo {
@@ -83,11 +87,20 @@ body {
 
 .records {
     text-align: right;
+    margin-top: 65px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 .welcome {
-    font-size: 35px;
+    padding-top: 50px;
+    font-size: 60px;
     font-family: "Old English Text MT"; src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot"); src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff") format("woff"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT") format("svg"); 
+}
+
+.line {
+    width: 1440px;
+    height: 75px;
 }
 
 
