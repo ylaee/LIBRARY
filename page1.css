@@ -2,8 +2,14 @@ body{
     min-height: 100vh;
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url(pictures/RECORDS.jpg);
     background-size: cover;
+=======
+    background-image: url(pictures/RECORDS.jpg);
+    background-size: cover;
+    background-position: center;    
+>>>>>>> c80f838a8ea6677d2327379a697ca4a58acad501
 =======
     background-image: url(pictures/RECORDS.jpg);
     background-size: cover;
