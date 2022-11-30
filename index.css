@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 a{
     color:rgb(10, 102, 194);
     text-decoration-line:none ;
@@ -5,6 +6,10 @@ a{
 a:hover{
     color:white;
 }
+=======
+@import url(//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT);
+
+>>>>>>> Stashed changes
 p{
     font-family: sans-serif;
     text-align: center;
@@ -103,11 +108,10 @@ body {
     font-family: "Old English Text MT"; src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot"); src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff") format("woff"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT") format("svg"); 
 }
 
-.line {
-    width: 1440px;
-    height: 75px;
+.responsive {
+    width: 100%;
+    height: auto;
 }
-
 
 
 
