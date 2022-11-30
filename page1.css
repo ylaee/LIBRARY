@@ -1,7 +1,9 @@
 body{
     min-height: 100vh;
     display: flex;
-    background: #707772; 
+    background-image: url(pictures/RECORDS.jpg);
+    background-size: cover;
+    background-position: center;    
     align-items: center;
     justify-content: center;
 }
