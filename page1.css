@@ -1,7 +1,14 @@
 body{
     min-height: 100vh;
     display: flex;
-    background: #707772; 
+<<<<<<< HEAD
+    background: url(pictures/RECORDS.jpg);
+    background-size: cover;
+=======
+    background-image: url(pictures/RECORDS.jpg);
+    background-size: cover;
+    background-position: center;    
+>>>>>>> c80f838a8ea6677d2327379a697ca4a58acad501
     align-items: center;
     justify-content: center;
 }
@@ -96,15 +103,6 @@ header h1{
     size: 3mm;
 }
 
-#homepage {
-    background-image: url(pictures/RECORDS.jpg);
-    background-size:cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 

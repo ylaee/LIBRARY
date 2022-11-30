@@ -16,6 +16,8 @@ p{
     color: rgb(10, 102, 194);
     border-color: rgb(10, 102, 194);
     border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 10px ;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -26,7 +28,7 @@ p{
     
 }
 
-.register-button:hover .scan-button:hover{
+.register-button:hover, .scan-button:hover{
     background-color:rgb(47, 132, 218) ;
     color: white;
 }
