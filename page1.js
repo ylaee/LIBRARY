@@ -21,11 +21,3 @@ userinput.addEventListener("keyup", () => {
         generator.classList.remove("active");
     }
 });
-
-
-
-
-
-
-
-
