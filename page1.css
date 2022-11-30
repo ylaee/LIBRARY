@@ -6,58 +6,28 @@ body{
     background-position: center;    
     align-items: center;
     justify-content: center;
-}
-.generator{
-    max-width: 450px;
-    border-radius: 10px;
-    height: 440px;
-    background: #ffffff;
-    padding: 1em;
-    transition: height 0.2s ease;
-}
-.generator.active{
-    height: 650px;
-}
-.generator.active .QR-Code{
-    pointer-events: auto;
-    opacity: 1;
-    transition: opacity 0.5s 0.05s ease;
-}
-.generator button{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    cursor: pointer;
-    text-align: center;
-}
-.generator .QR-Code{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-    padding: 33px;
-    border: 1px solid #ccc;
-    border-radius: 2mm;
-}
-.generator .form{
-    margin: 3mm;
+    backdrop-filter: blur(2px);
 }
 header h1{
-    font-family: fantasy;
-    font-size: 30px;
+    font-family: "Old English Text MT"; src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot"); src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff") format("woff"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT") format("svg");;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 25px;
+
 }
 .form label{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(0, 0, 0);
+    font-style: italic;
+    color: rgb(255, 252, 252);
     font-size: 17px;
-    font-weight: 100;
+    font-weight: bold;
 }
 .form input{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     padding: 3mm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font: size 2em;
     margin-bottom: 10px;
 }
@@ -74,9 +44,10 @@ header h1{
 }
 .form button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
+    font-weight:bold ;
+    color:rgb(10, 102, 194);
     cursor: pointer;
-    background-color: rgb(75, 224, 75);
+    background-color:white;
     margin-top: 2mm;
     margin-left:25%;
     margin-right: 25%;
@@ -86,6 +57,13 @@ header h1{
     height: 40px;
     padding: 3mm;
     text-align: center;
+    cursor: pointer;
+    transition: ease-in-out background-color 0.3s;    
+    outline: none;
+}
+.form button:hover{
+    background-color:rgb(47, 132, 218) ;
+    color: white;
 }
 *{
     margin: 0;
@@ -93,19 +71,3 @@ header h1{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-.generator .fa-solid{
-    color: black;
-    size: 3mm;
-}
-
-
-
-
-
-
-
-
-
-
-
-
