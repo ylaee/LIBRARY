@@ -28,6 +28,8 @@ p{
     border: none;
     border-radius:18px;
     cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
     transition: ease-in-out background-color 0.3s;    
     outline: none;
 }
@@ -88,13 +90,13 @@ body {
 }
 
 .pculogo {
-    width: 130px;
+    width: 140px;
     margin-top: 0;
 }
 
 .records {
     text-align: right;
-    margin-top: 0px;
+    margin-top: 65px;
     margin-right: 50px;
     font-size: 20px;
 }
